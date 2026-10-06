@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script>document.documentElement.classList.add('js');</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aria — Harsh</title>
+<meta name="description" content="An AI support agent that answers most tickets before a human ever sees them.">
+<meta name="theme-color" content="#050505">
+<meta property="og:image" content="assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Harsh — Websites, Apps & AI">
+<meta name="twitter:description" content="Web developer building websites, apps and AI products.">
+<meta name="twitter:image" content="assets/img/og.png">
+<meta property="og:title" content="Aria — Harsh">
+<meta property="og:description" content="Aria — Harsh — project case study by Harsh.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"></span></div>
+
+<header class="topbar">
+  <a class="topbar__logo" href="index.html" aria-label="Harsh — home">
+    <span class="topbar__logoText">HARSH</span><span class="glyph glyph--sm" aria-hidden="true"></span>
+  </a>
+  <div class="topbar__right">
+    <a class="topbar__mail" href="mailto:hello.harshweb@gmail.com">hello.harshweb@gmail.com</a>
+  </div>
+</header>
+
+<main class="cs shell" id="top">
+  <a class="cs__back" href="index.html"><span aria-hidden="true">←</span> Back home</a>
+
+  <h1 class="cs__title">Aria</h1>
+  <p class="cs__lede">An AI support agent that answers most tickets before a human ever sees them.</p>
+
+  <div class="cs__meta">
+    <div><p class="k">Client</p><p class="v">Aria Systems</p></div>
+    <div><p class="k">Services</p><p class="v">AI Integration,<br>Full-Stack Development</p></div>
+    <div><p class="k">Type</p><p class="v">AI Product</p></div>
+  </div>
+
+  <figure class="cs__hero">
+    <img src="assets/img/project-aria.webp" alt="Aria — main screen">
+  </figure>
+
+  <figure class="cs__figure">
+    <img src="assets/img/project-aria.webp" alt="Aria — main screen" loading="lazy">
+    <figcaption class="mono-xs">Aria — main screen</figcaption>
+  </figure>
+
+  <section class="cs__section">
+    <h2>Introduction</h2>
+    <div class="cs__body"><p>Aria's support team was drowning. The same fifteen questions made up most of the queue, and first-response time was measured in days, not minutes.</p><p>I built an AI agent that answers from their own documentation, escalates when it is unsure, and shows its work in an admin panel the team actually controls.</p></div>
+  </section>
+
+  <section class="cs__section">
+    <h2>Goals</h2>
+    <div class="cs__body"><ul class="cs__list"><li>Cut first-response time to under a minute</li><li>Keep every answer grounded in real documentation</li><li>Escalate to a human gracefully, with context</li><li>Give the team visibility into accuracy and gaps</li><li>Ship inside their existing helpdesk workflow</li></ul></div>
+  </section>
+
+  <section class="cs__section">
+    <h2>Target audience</h2>
+    <div class="cs__body"><ul class="cs__list"><li>Support agents handling 200+ tickets a day</li><li>Customers expecting an instant answer</li><li>The ops lead responsible for tone and accuracy</li></ul></div>
+  </section>
+
+  <section class="cs__section">
+    <h2>Approach</h2>
+    <div class="cs__body"><p>Retrieval first, model second. The agent searches their docs, cites the source, and refuses to answer when confidence is low — which is exactly what makes it trustworthy in production.</p><p><strong>An eval harness</strong> runs a set of real historical questions on every prompt change, so improvements are measured instead of guessed.</p><p>The interface streams answers token by token so the product feels fast even when the model is thinking.</p></div>
+  </section>
+
+  <section class="cs__section">
+    <h2>Design</h2>
+    <div class="cs__body"><p>A chat surface that inherits the host site's typography</p><p>Confidence indicator and source chips under every answer</p><p>Admin dashboard: transcripts, gaps, escalation rules</p><div class="cs__gallery"><img src="assets/img/project-aria.webp" alt="Project detail screen" loading="lazy"></div></div>
+  </section>
+
+  <section class="cs__section">
+    <h2>Deliverables</h2>
+    <div class="cs__body"><ul class="cs__list"><li>Chat widget and embeddable API</li><li>Retrieval pipeline over their documentation</li><li>Admin dashboard and analytics</li><li>Evaluation harness and prompt versioning</li><li>Deployment, monitoring and handover docs</li></ul></div>
+  </section>
+
+  <section class="cs__section">
+    <h2>Stack</h2>
+    <div class="cs__body"><p>Next.js, OpenAI, Vector search, Node.js, Redis, Vercel</p></div>
+  </section>
+
+  <div class="cs__next">
+    <span class="mono-xs">Next project</span>
+    <a href="cadence.html">Cadence — startup website <span aria-hidden="true">→</span></a>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="shell">
+    <div class="footer__top">
+      <p class="label">[ Ready to start? ]</p>
+      <a class="footer__mail" href="mailto:hello.harshweb@gmail.com">hello.harshweb@gmail.com</a>
+      <div class="footer__contact">
+        <button class="copy" type="button" data-copy="hello.harshweb@gmail.com">Copy email <svg class="copy__icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="5.6" y="5.6" width="7.9" height="7.9" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M10.4 3.6V3A1.5 1.5 0 0 0 8.9 1.5H3A1.5 1.5 0 0 0 1.5 3v5.9A1.5 1.5 0 0 0 3 10.4h.6" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></button>
+        <span class="copy">-----xxxxx</span>
+      </div>
+    </div>
+
+    <div class="footer__cols">
+      <div class="footer__col">
+        <p class="mono-xs">Site</p>
+        <a href="index.html">Home</a>
+        <a href="index.html#featured">Projects</a>
+        <a href="index.html#about">About</a>
+        <a href="archive.html">Archive</a>
+      </div>
+      <div class="footer__col">
+        <p class="mono-xs">Follow</p>
+          <span class="mono-xs">Coming soon</span>
+        </div>
+      <div class="footer__col footer__col--wide">
+        <p class="mono-xs">Services</p>
+        <a href="mailto:hello.harshweb@gmail.com?subject=Website%20project">Websites &amp; landing pages</a>
+        <a href="mailto:hello.harshweb@gmail.com?subject=App%20project">Web &amp; mobile apps</a>
+        <a href="mailto:hello.harshweb@gmail.com?subject=AI%20project">AI integration &amp; automation</a>
+      </div>
+    </div>
+
+    <div class="footer__huge" aria-hidden="true">
+      <span>IDEA TO LAUNCH</span>
+      <span class="is-outline">DETAILS INCLUDED</span>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="mono-xs">© <span data-year>2026</span> harsh</p>
+      <a class="mono-xs footer__top-link" href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<nav class="dock" aria-label="Primary">
+  <div class="dock__inner">
+    <a href="index.html#featured">Projects</a>
+    <a href="index.html#about">About</a>
+    <a href="archive.html">Archive</a>
+    <a class="dock__cta" href="mailto:hello.harshweb@gmail.com"><span class="avatar avatar--btn" data-initials="H"></span>Let's talk</a>
+  </div>
+</nav>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

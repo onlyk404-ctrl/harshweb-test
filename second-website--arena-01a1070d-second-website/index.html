@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script>document.documentElement.classList.add('js');</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harsh — Websites, Apps &amp; AI</title>
+<meta name="description" content="Harsh — web developer building websites, apps and AI products that convert, simplify and scale.">
+<meta name="theme-color" content="#050505">
+<meta property="og:title" content="Harsh — Websites, Apps & AI">
+<meta property="og:description" content="Web developer building websites, apps and AI products.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Harsh — Websites, Apps & AI">
+<meta name="twitter:description" content="Web developer building websites, apps and AI products.">
+<meta name="twitter:image" content="assets/img/og.png">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="is-loading">
+
+<!-- ============ PRELOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <div class="loader__mark"><span class="glyph"></span></div>
+    <div class="loader__name">HARSH</div>
+    <div class="loader__bar"><span id="loaderBar"></span></div>
+    <div class="loader__meta">
+      <span>Websites · Apps · AI</span>
+      <span id="loaderCount">00</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FX LAYERS ============ -->
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__ring"></span><span class="cursor__dot"></span><span class="cursor__label">View</span></div>
+
+<!-- ============ FIXED HEADER ============ -->
+<header class="topbar" id="topbar">
+  <a class="topbar__logo" href="#top" aria-label="Harsh — home">
+    <span class="topbar__logoText" data-logo>HARSH</span><span class="glyph glyph--sm" aria-hidden="true"></span>
+  </a>
+  <div class="topbar__right">
+    <span class="topbar__status" aria-hidden="true"><i class="dot"></i>Available for work</span>
+    <a class="topbar__mail" href="mailto:hello.harshweb@gmail.com">hello.harshweb@gmail.com</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__media" data-hero-media>
+      <img src="assets/img/harsh.webp" alt="Portrait of Harsh, web developer" fetchpriority="high" decoding="async"
+           onerror="this.onerror=null;this.src='assets/img/harsh-placeholder.svg';">
+    </div>
+
+    <div class="hero__grid"></div>
+
+    <div class="hero__inner shell">
+      <div class="hero__lines">
+        <div class="hero__row hero__row--a">
+          <h1 class="hero__title" data-hero-title>WEBSITES</h1>
+          <span class="chip chip--a reveal" data-reveal>
+            <b>Web · Apps · AI</b>
+            <i>Design, build &amp; ship</i>
+          </span>
+        </div>
+
+        <div class="hero__row hero__row--b">
+          <p class="hero__lede reveal" data-reveal>Hey, I'm Harsh. I build websites, apps and<br>AI products that convert, simplify and scale.</p>
+          <h2 class="hero__title" aria-hidden="true">&amp;&nbsp;APPS</h2>
+        </div>
+
+        <div class="hero__row hero__row--c">
+          <h2 class="hero__title">&amp;&nbsp;AI</h2>
+          <span class="chip chip--b reveal" data-reveal>
+            <b>10+ projects</b>
+            <i>Shipped &amp; live</i>
+          </span>
+          <span class="hero__arrow" aria-hidden="true">
+            <svg viewBox="0 0 28 28" fill="none"><path d="M14 2v22M5 15l9 9 9-9" stroke="currentColor" stroke-width="2.1" stroke-linecap="square"/></svg>
+          </span>
+        </div>
+      </div>
+
+      <div class="hero__foot">
+        <span class="mono-xs">Idea → Launch</span>
+        <span class="mono-xs">Scroll</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SCROLL MARQUEE ============ -->
+  <section class="marquee" aria-hidden="true">
+    <div class="marquee__row" data-marquee-scroll>
+      <span class="marquee__word">FEATURED&nbsp;PROJECTS.</span>
+      <span class="marquee__word is-outline">WEBSITES&nbsp;·&nbsp;APPS&nbsp;·&nbsp;AI.</span>
+      <span class="marquee__word">FEATURED&nbsp;PROJECTS.</span>
+    </div>
+  </section>
+
+  <!-- ============ WHAT I DO ============ -->
+  <section class="statement shell" id="what">
+    <p class="label reveal" data-reveal>[ What I do ]</p>
+    <div class="statement__body">
+      <h2 class="huge" data-split="words">Stunning websites, useful apps and AI that actually works, crafted for companies that care about every detail.</h2>
+      <div class="statement__aside">
+        <p class="mono-sm reveal" data-reveal>From first sketch to live product — design, code and everything in between.</p>
+        <p class="mono-sm reveal" data-reveal>Websites, web apps, mobile apps and AI integrations for startups, agencies and founders.</p>
+        <p class="mono-sm mono-sm--dim reveal" data-reveal>Currently taking on new projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STACK STRIP ============ -->
+  <section class="ticker" aria-label="Tools and technologies">
+    <div class="ticker__track" data-ticker>
+      <span>HTML</span><i>·</i><span>CSS</span><i>·</i><span>JavaScript</span><i>·</i><span>TypeScript</span><i>·</i>
+      <span>React</span><i>·</i><span>Next.js</span><i>·</i><span>Node.js</span><i>·</i><span>Python</span><i>·</i>
+      <span>React Native</span><i>·</i><span>Tailwind</span><i>·</i><span>PostgreSQL</span><i>·</i><span>Supabase</span><i>·</i>
+      <span>Figma</span><i>·</i><span>OpenAI</span><i>·</i><span>LangChain</span><i>·</i><span>Vercel</span><i>·</i>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED GALLERY (pinned horizontal) ============ -->
+  <section class="gallery" id="featured">
+    <div class="gallery__pin" data-pin>
+      <div class="gallery__head shell">
+        <p class="label">[ Featured projects ]</p>
+        <p class="mono-xs gallery__count"><span data-gallery-index>01</span> / 09</p>
+      </div>
+
+      <div class="gallery__track" data-track>
+        <article class="pcard" data-cursor="view">
+          <a class="pcard__link" href="nova.html">
+            <span class="pcard__index">01</span>
+            <div class="pcard__media"><img src="assets/img/project-nova.webp" alt="Nova — analytics dashboard interface" loading="lazy"></div>
+            <div class="pcard__meta">
+              <h3>Nova</h3>
+              <p>Analytics dashboard that turns messy data into clear decisions.</p>
+              <span class="tags"><em>SaaS Web App</em><em>React</em><em>Design System</em></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="pcard" data-cursor="view">
+          <a class="pcard__link" href="aria.html">
+            <span class="pcard__index">02</span>
+            <div class="pcard__media"><img src="assets/img/project-aria.webp" alt="Aria — AI assistant interface" loading="lazy"></div>
+            <div class="pcard__meta">
+              <h3>Aria</h3>
+              <p>AI assistant that answers customers in seconds, not days.</p>
+              <span class="tags"><em>AI Product</em><em>Next.js</em><em>LLM</em></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="pcard" data-cursor="view">
+          <a class="pcard__link" href="cadence.html">
+            <span class="pcard__index">03</span>
+            <div class="pcard__media"><img src="assets/img/project-cadence.webp" alt="Cadence — startup marketing website" loading="lazy"></div>
+            <div class="pcard__meta">
+              <h3>Cadence</h3>
+              <p>Investor-ready website for an AI startup, built to raise.</p>
+              <span class="tags"><em>Website</em><em>Next.js</em><em>Motion</em></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="pcard" data-cursor="view">
+          <a class="pcard__link" href="fitloop.html">
+            <span class="pcard__index">04</span>
+            <div class="pcard__media"><img src="assets/img/project-fitloop.webp" alt="Fitloop — fitness app screens" loading="lazy"></div>
+            <div class="pcard__meta">
+              <h3>Fitloop</h3>
+              <p>Fitness app that keeps people coming back every week.</p>
+              <span class="tags"><em>Mobile App</em><em>React Native</em><em>UI</em></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="pcard" data-cursor="view">
+          <a class="pcard__link" href="brew.html">
+            <span class="pcard__index">05</span>
+            <div class="pcard__media"><img src="assets/img/project-brew.webp" alt="Brew &amp; Co. — coffee e-commerce website" loading="lazy"></div>
+            <div class="pcard__meta">
+              <h3>Brew &amp; Co.</h3>
+              <p>Coffee brand store that sells while you sleep.</p>
+              <span class="tags"><em>E-commerce</em><em>Shopify</em><em>CRO</em></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="pcard" data-cursor="view">
+          <a class="pcard__link" href="vision.html">
+            <span class="pcard__index">06</span>
+            <div class="pcard__media"><img src="assets/img/project-vision.webp" alt="Vision — computer vision platform" loading="lazy"></div>
+            <div class="pcard__meta">
+              <h3>Vision</h3>
+              <p>Computer-vision platform for real-time insight.</p>
+              <span class="tags"><em>AI Dashboard</em><em>Python</em><em>WebGL</em></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="pcard" data-cursor="view">
+          <a class="pcard__link" href="archive.html">
+            <span class="pcard__index">07</span>
+            <div class="pcard__media"><img src="assets/img/work-salad-home.webp" alt="Crucial Healthy Salad — website home page" loading="lazy"></div>
+            <div class="pcard__meta">
+              <h3>Crucial Healthy Salad</h3>
+              <p>Fresh salad delivery website for Hadapsar, Pune.</p>
+              <span class="tags"><em>Website</em><em>E-commerce</em></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="pcard" data-cursor="view">
+          <a class="pcard__link" href="archive.html">
+            <span class="pcard__index">08</span>
+            <div class="pcard__media"><img src="assets/img/work-salad-story.webp" alt="Crucial Healthy Salad — Our Story page" loading="lazy"></div>
+            <div class="pcard__meta">
+              <h3>Salad — Our Story</h3>
+              <p>The brand story page for Crucial Healthy Salad.</p>
+              <span class="tags"><em>Website</em><em>Content</em></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="pcard" data-cursor="view">
+          <a class="pcard__link" href="archive.html">
+            <span class="pcard__index">09</span>
+            <div class="pcard__media"><img src="assets/img/work-gallery3d.webp" alt="Dark 3D image gallery" loading="lazy"></div>
+            <div class="pcard__meta">
+              <h3>3D Gallery</h3>
+              <p>An immersive dark 3D image gallery.</p>
+              <span class="tags"><em>Website</em><em>Motion</em></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="pcard pcard--end">
+          <div class="pcard__outro">
+            <h3>See the full archive</h3>
+            <p>40+ screens, sites and builds from the last few years.</p>
+            <a class="btn btn--ghost" href="archive.html">Explore the archive <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CASE STUDIES ============ -->
+  <section class="cases shell" id="work">
+    <header class="cases__head">
+      <p class="label reveal" data-reveal>[ Case studies ]</p>
+      <h2 class="cases__title reveal" data-reveal>Selected<br>work</h2>
+    </header>
+
+    <ul class="cases__list" data-preview-list>
+      <li class="case reveal" data-reveal>
+        <a class="case__link" href="cadence.html">
+          <span class="case__num">1</span>
+          <span class="case__main">
+            <span class="case__name">Investor-ready website that helped an AI startup raise</span>
+            <span class="case__tags">Website · Next.js · Motion</span>
+          </span>
+          <span class="case__hover">Next project</span>
+        </a>
+        <div class="case__thumb" data-thumb><img src="assets/img/project-cadence.webp" alt="" aria-hidden="true"></div>
+      </li>
+
+      <li class="case reveal" data-reveal>
+        <a class="case__link" href="nova.html">
+          <span class="case__num">2</span>
+          <span class="case__main">
+            <span class="case__name">Dashboard design that lets founders run the numbers themselves</span>
+            <span class="case__tags">SaaS Product · React · Design System</span>
+          </span>
+          <span class="case__hover">Next project</span>
+        </a>
+        <div class="case__thumb" data-thumb><img src="assets/img/project-nova.webp" alt="" aria-hidden="true"></div>
+      </li>
+
+      <li class="case reveal" data-reveal>
+        <a class="case__link" href="aria.html">
+          <span class="case__num">3</span>
+          <span class="case__main">
+            <span class="case__name">AI support agent that cut first-response time by 80%</span>
+            <span class="case__tags">AI Product · LLM · Node.js</span>
+          </span>
+          <span class="case__hover">Next project</span>
+        </a>
+        <div class="case__thumb" data-thumb><img src="assets/img/project-aria.webp" alt="" aria-hidden="true"></div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="quotes" id="testimonials">
+    <div class="quotes__bg" aria-hidden="true">
+      <span data-quotes-word>RESULTS</span>
+      <span data-quotes-word>SPEAK</span>
+      <span data-quotes-word>LOUDER</span>
+    </div>
+
+    <div class="shell quotes__inner">
+      <p class="label reveal" data-reveal>[ Testimonials ]</p>
+
+      <div class="quotes__grid">
+        <figure class="quote reveal" data-reveal>
+          <span class="quote__num">1</span>
+          <blockquote>“Harsh rebuilt our marketing site in three weeks and it looks better than anything our agency produced. Signups went up, and I finally stopped worrying about the details — he already had them.”</blockquote>
+          <figcaption><span class="avatar" data-initials="RM"></span><span><b>Rahul Mehta</b><i>Founder, Cadence Labs</i></span></figcaption>
+        </figure>
+
+        <figure class="quote reveal" data-reveal>
+          <span class="quote__num">2</span>
+          <blockquote>“He shipped our dashboard, our API and an AI summary feature on his own. Clean code, clear updates, zero drama — our team still uses the components he built.”</blockquote>
+          <figcaption><span class="avatar" data-initials="SK"></span><span><b>Sara Khan</b><i>Product Lead, Nova Analytics</i></span></figcaption>
+        </figure>
+
+        <figure class="quote reveal" data-reveal>
+          <span class="quote__num">3</span>
+          <blockquote>“We came with a rough idea and a deadline. Harsh came back with a product that felt finished — the AI assistant now answers 70% of our support tickets by itself.”</blockquote>
+          <figcaption><span class="avatar" data-initials="DB"></span><span><b>Daniel Brooks</b><i>COO, Aria Systems</i></span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about shell" id="about">
+    <div class="about__top">
+      <h2 class="huge" data-split="words">I'm Harsh, a web developer who cares about the details most people never notice.</h2>
+      <div class="about__photo reveal" data-reveal data-parallax="0.06">
+        <img src="assets/img/harsh.webp" alt="Harsh at work"
+             onerror="this.onerror=null;this.src='assets/img/harsh-placeholder.svg';">
+      </div>
+    </div>
+
+    <div class="about__grid">
+      <div class="about__col">
+        <p class="label reveal" data-reveal>[ My start ]</p>
+        <p class="body reveal" data-reveal>My journey started with a curiosity about how things work on the internet. One broken HTML page turned into a stack of side projects, and those turned into real products for real people.</p>
+      </div>
+      <div class="about__col">
+        <p class="label reveal" data-reveal>[ How I work ]</p>
+        <p class="body reveal" data-reveal>I work end to end — design in Figma, build in React and Next.js, ship to Vercel, and wire up AI where it genuinely helps. Small teams, fast feedback, no hand-off gaps.</p>
+      </div>
+      <div class="about__col">
+        <p class="label reveal" data-reveal>[ About me ]</p>
+        <p class="body reveal" data-reveal>Outside of code, you'll find me sketching interfaces, testing new AI tools before anyone asks, and collecting way too many fonts I'll never use.</p>
+      </div>
+    </div>
+
+    <div class="about__strip" aria-label="Recent work">
+      <div class="about__stripTrack" data-ticker>
+        <img src="assets/img/project-nova.webp" alt="" loading="lazy">
+        <img src="assets/img/project-aria.webp" alt="" loading="lazy">
+        <img src="assets/img/project-cadence.webp" alt="" loading="lazy">
+        <img src="assets/img/project-fitloop.webp" alt="" loading="lazy">
+        <img src="assets/img/project-brew.webp" alt="" loading="lazy">
+        <img src="assets/img/project-vision.webp" alt="" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOCUS / FOCUS STATEMENT ============ -->
+  <section class="focus">
+    <div class="shell focus__grid">
+      <div class="focus__left">
+        <p class="focus__big" data-split="words">Today my focus is clear: websites, apps and AI for companies that want design to work as hard as it looks good.</p>
+        <p class="label label--gap reveal" data-reveal>[ What I do best ]</p>
+        <p class="mono-sm reveal" data-reveal>Web Development, Next.js, React, Node.js, UI/UX, Landing Pages, SaaS, Mobile Apps, React Native, AI Integration, LLM Apps, Automation, REST APIs, Headless CMS, Performance, SEO.</p>
+      </div>
+
+      <div class="focus__right">
+        <p class="body reveal" data-reveal>Over the years I moved from building simple sites to shipping full products — dashboards, mobile apps and AI features that people rely on daily.</p>
+        <p class="body reveal" data-reveal>I like working with companies that have a strong point of view and want their product to feel considered, fast and effortless.</p>
+        <p class="body reveal" data-reveal>Currently based in India, working with teams worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta" id="contact">
+    <div class="cta__collage" aria-hidden="true">
+      <div class="cta__row" data-ticker>
+        <img src="assets/img/project-cadence.webp" alt="">
+        <img src="assets/img/project-brew.webp" alt="">
+        <img src="assets/img/project-nova.webp" alt="">
+        <img src="assets/img/project-fitloop.webp" alt="">
+        <img src="assets/img/project-aria.webp" alt="">
+      </div>
+      <div class="cta__row cta__row--rev" data-ticker>
+        <img src="assets/img/project-vision.webp" alt="">
+        <img src="assets/img/project-cadence.webp" alt="">
+        <img src="assets/img/project-aria.webp" alt="">
+        <img src="assets/img/project-brew.webp" alt="">
+        <img src="assets/img/project-nova.webp" alt="">
+      </div>
+    </div>
+
+    <div class="cta__center shell">
+      <h2 class="cta__title" data-split="words">Let's build something together.</h2>
+      <div class="cta__actions reveal" data-reveal>
+        <a class="btn btn--cream" href="mailto:hello.harshweb@gmail.com"><span class="avatar avatar--btn" data-initials="H"></span>Let's talk</a>
+        <a class="btn btn--ghost" href="archive.html">Explore the archive <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="footer">
+    <div class="shell">
+      <div class="footer__top">
+        <p class="label reveal" data-reveal>[ Ready to start? ]</p>
+        <a class="footer__mail reveal" data-reveal href="mailto:hello.harshweb@gmail.com">hello.harshweb@gmail.com</a>
+        <div class="footer__contact reveal" data-reveal>
+          <button class="copy" type="button" data-copy="hello.harshweb@gmail.com">Copy email <svg class="copy__icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="5.6" y="5.6" width="7.9" height="7.9" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M10.4 3.6V3A1.5 1.5 0 0 0 8.9 1.5H3A1.5 1.5 0 0 0 1.5 3v5.9A1.5 1.5 0 0 0 3 10.4h.6" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></button>
+          <span class="copy">-----xxxxx</span>
+        </div>
+      </div>
+
+      <div class="footer__cols">
+        <div class="footer__col">
+          <p class="mono-xs">Site</p>
+          <a href="#top">Home</a>
+          <a href="#featured">Projects</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#about">About</a>
+          <a href="archive.html">Archive</a>
+        </div>
+        <div class="footer__col">
+          <p class="mono-xs">Follow</p>
+          <span class="mono-xs">Coming soon</span>
+        </div>
+        <div class="footer__col footer__col--wide">
+          <p class="mono-xs">Services</p>
+          <a href="mailto:hello.harshweb@gmail.com?subject=Website%20project">Websites &amp; landing pages</a>
+          <a href="mailto:hello.harshweb@gmail.com?subject=App%20project">Web &amp; mobile apps</a>
+          <a href="mailto:hello.harshweb@gmail.com?subject=AI%20project">AI integration &amp; automation</a>
+        </div>
+      </div>
+
+      <div class="footer__huge" aria-hidden="true">
+        <span>IDEA TO LAUNCH</span>
+        <span class="is-outline">DETAILS INCLUDED</span>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="mono-xs">© <span data-year>2026</span> harsh</p>
+        <a class="mono-xs footer__top-link" href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+</main>
+
+<!-- ============ FLOATING DOCK NAV ============ -->
+<nav class="dock" aria-label="Primary">
+  <div class="dock__inner">
+    <a href="#featured" data-spy="featured">Projects</a>
+    <a href="#about" data-spy="about">About</a>
+    <a href="archive.html">Archive</a>
+    <a class="dock__cta" href="#contact"><span class="avatar avatar--btn" data-initials="H"></span>Let's talk</a>
+  </div>
+</nav>
+
+<!-- ============ MOBILE MENU BUTTON ============ -->
+<button class="menuBtn" id="menuBtn" type="button" aria-expanded="false" aria-controls="menu">
+  <span></span><span></span>
+  <span class="sr-only">Menu</span>
+</button>
+
+<div class="menu" id="menu" hidden>
+  <nav class="menu__nav">
+    <a href="#featured">Projects</a>
+    <a href="#about">About</a>
+    <a href="archive.html">Archive</a>
+    <a href="#contact">Let's talk</a>
+  </nav>
+  <div class="menu__foot">
+    <a href="mailto:hello.harshweb@gmail.com">hello.harshweb@gmail.com</a>
+    <span class="mono-xs">Websites · Apps · AI</span>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
